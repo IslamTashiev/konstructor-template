@@ -38,10 +38,7 @@
 .btn1:hover {
   color: #fff !important;
 }
-.btn2:hover {
-  color: #171819 !important;
-  font-size: 17px;
-}
+
 .btn1::before {
   width: 100%;
   height: 0%;
@@ -49,6 +46,10 @@
 }
 .btn1:hover::before {
   height: 380%;
+}
+.btn2:hover {
+  color: #171819 !important;
+  font-size: 17px;
 }
 .nav {
   width: 100%;
